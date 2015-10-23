@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script src="javascript/styleScript.js"></script>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/styleScript.js"></script>
 
-        <title>jef's website</title>
-    </head>
-    <body>
-        <div class="centerBox">
-            <h1 title="i dare you to click me" id="helloGoodbye" onclick="changeText()">hello</h1>
-            <h2>my name is jef</h2>
-            <p style="word-spacing: 20px;">
-                <a href="https://drive.google.com/file/d/0B5oCwA_2d2muQU9adkI5NXVBMFE/view?usp=sharing">resume</a>
-                <a href="https://github.com/jeffreylec">projects</a>
-                <a href="https://www.linkedin.com/in/jalecompte">linkedin</a>
-            </p>
-        </div>
-    </body>
+    <title>jef</title>
+</head>
+<body>
+<div class="centerBox">
+    <h1 title="i dare you to click me" id="helloGoodbye" onclick="changeText()">hello</h1>
+    <h2>my name is jef</h2>
+
+    <!-- When not using a list like below.
+    I have to learn more about lists to really get the grasp -->
+    <!--<p style="word-spacing: 20px;">-->
+        <!--<a href="https://drive.google.com/file/d/0B5oCwA_2d2muQU9adkI5NXVBMFE/view?usp=sharing">resume</a>-->
+        <!--<a href="https://github.com/jeffreylec">projects</a>-->
+        <!--<ul><li>test</li></ul>-->
+        <!--<a href="https://www.linkedin.com/in/jalecompte" id>linkedin</a>-->
+    <!--</p>-->
+
+</div>
+<ul id="trans-nav">
+    <li><a href="https://drive.google.com/file/d/0B5oCwA_2d2muQU9adkI5NXVBMFE/view?usp=sharing">resume</a></li>
+    <li><a href="#">projects</a>
+        <ul>
+            <li><a href="https://github.com/ianmcpeek/TuneLion">tunelion</a></li>
+            <li><a href="https://github.com/jeffreylec/TicTacToe-Assgn1">tic-tac-toe ai</a></li>
+            <li><a href="https://github.com/jeffreylec/jeffreylec.github.io">this website</a></li>
+        </ul>
+    </li>
+    <li><a href="#">contact</a>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/jalecompte">linkedin</a></li>
+        </ul>
+    </li>
+</ul>
+</body>
 </html>
