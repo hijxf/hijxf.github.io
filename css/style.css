@@ -37,6 +37,7 @@ div.centerBox p {
 div.centerBox a:link {
     color: #FFFFFF;
     text-decoration: none;
+    -webkit-transition: all 0.5s linear;
 }
 
 div.centerBox a:visited {
@@ -46,10 +47,11 @@ div.centerBox a:visited {
 
 div.centerBox a:hover {
     color: #FFFFFF;
-    text-decoration: overline;
+    text-shadow: 0 0 15px #FFFFFF;
+    text-decoration: none;
 }
 
 div.centerBox a:active {
-    color: #E3E3E3;
+    color: #FFFFFF;
     text-decoration: none;
 }
