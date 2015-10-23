@@ -33,6 +33,7 @@ div.centerBox p {
     font-size: 16px;
 }
 
+/*clearing link decoration*/
 div.centerBox a:link {
     color: #FFFFFF;
     text-decoration: none;
