@@ -6,9 +6,12 @@ html {
 }
 
 div.centerBox {
+    /*for text*/
     text-align: center;
-    color: white;
+    color: #FFFFFF;
     line-height: 100%;
+
+    /*for centering*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,7 +21,8 @@ div.centerBox {
 
 div.centerBox h1 {
     font-size: 64px;
-    /*letter-spacing: 50px;*/
+    letter-spacing: 50px;
+    text-indent: 50px;
 }
 
 div.centerBox h2 {
@@ -27,4 +31,24 @@ div.centerBox h2 {
 
 div.centerBox p {
     font-size: 16px;
+}
+
+div.centerBox a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.centerBox a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.centerBox a:hover {
+    color: #FFFFFF;
+    text-decoration: overline;
+}
+
+div.centerBox a:active {
+    color: #E3E3E3;
+    text-decoration: none;
 }
