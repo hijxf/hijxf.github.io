@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+html {
+    background: url(../images/bkgd-image.jpg) no-repeat fixed 50% 50%;
+    font-family: 'Roboto Mono', serif;
+}
+
+div.centerBox {
+    text-align: center;
+    color: white;
+    line-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.centerBox h1 {
+    font-size: 64px;
+    /*letter-spacing: 50px;*/
+}
+
+div.centerBox h2 {
+    font-size: 32px;
+}
+
+div.centerBox p {
+    font-size: 16px;
+}
