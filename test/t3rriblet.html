@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>new website of the year</title>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Galada&effect=font-effect-anaglyph" rel="stylesheet">
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Space+Mono&effect=font-effect-anaglyph">
 <style>
     body {
         background: url("/img/GOAT.jpg") center;
-        font-family: 'Galada', cursive;
+        font-family: 'Space Mono', monospace;
         font-size: 72pt;
         margin: auto;
         position: absolute;
@@ -16,7 +17,25 @@
     }
 </style>
 <body>
-this 1 4 u trenton
+<div class="font-effect-anaglyph">hello, trenton<span id="dots"></span></div>​
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+var dots = 0;
+
+$(document).ready(function() {
+    setInterval (type, 600);
+});
+
+function type() {
+    if(dots < 3) {
+        $('#dots').append('.');
+        dots++;
+    } else {
+        $('#dots').html('');
+        dots = 0;
+    }
+}​
+</script>
 <audio autoplay preload="auto">
     <source src="/sound/jesse.mp3" type="audio/mpeg">
     You're browse4r is broken, dude.
