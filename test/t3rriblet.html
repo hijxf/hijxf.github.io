@@ -17,24 +17,20 @@
     }
 </style>
 <body>
-<div class="font-effect-anaglyph">hello, trenton<span id="dots"></span></div>​
+<div class="font-effect-anaglyph element">hello, trenton</div>​
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/js/jquery.dotanimation.js"></script>
 <script>
-var dots = 0;
+    $(function () {
+        // Animation will start at once
+        var $el = $('.element');
 
-$(document).ready(function() {
-    setInterval (type, 600);
-});
-
-function type() {
-    if(dots < 3) {
-        $('#dots').append('.');
-        dots++;
-    } else {
-        $('#dots').html('');
-        dots = 0;
-    }
-}​
+        $el.dotAnimation({
+            speed: 300,
+            dotElement: '.',
+            numDots: 3
+        });
+    });
 </script>
 <audio autoplay preload="auto">
     <source src="/sound/jesse.mp3" type="audio/mpeg">
