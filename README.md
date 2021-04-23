@@ -1,3 +1,3 @@
 # jef lecompte
 
-*Please visit at [jef.codes](https://jef.codes).*
+*Please visit at [jef.buzz](https://jef.buzz).*
