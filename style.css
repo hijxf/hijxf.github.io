@@ -1,11 +1,6 @@
 body {
     font-family: 'Fira Code', serif;
-    font-size: .75vmax;
-}
-
-.fixed-width {
-    margin: auto;
-    max-width: 20vmax;
+    font-size: 1vmax;
 }
 
 a {
